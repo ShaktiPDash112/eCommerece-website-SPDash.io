@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>India's Online Superhero Merchandise Proroducts</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap" rel="stylesheet">
+    <link rel="stylesheet" media="screen and (max-width: 800px)" href="phone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis&display=swap" rel="stylesheet">
+</head>
+<body>
+<!-- Navigation Menu -->
+    <section class="navbar">
+        <nav>
+            <div class="menu">
+                <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+                <a href="index.html"><img src="img/logo(crop).png" alt=""></a>
+            </div>
+            
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="icons">
+                <div class="search-box">
+                    <input type="text" class="search-text" placeholder="Type Your Product">
+                    <a href="#" class="search-btn">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </a>
+                </div>
+                <div class="user-profile">
+                    <a href="account.html">
+                        <i class="fa-solid fa-circle-user"></i>
+                    </a>
+                </div>
+                <div class="cart-btn">
+                    <a href="cart.html">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </section>
+
+<!-- Header -->
+
+    <section class="slider">
+            <div class="slides">
+                <input type="radio" name="radio-btn" id="radio1">
+                <input type="radio" name="radio-btn" id="radio2">
+                <input type="radio" name="radio-btn" id="radio3">
+                <input type="radio" name="radio-btn" id="radio4">
+
+                <div class="slide first">
+                    <img src="img/thor-love-and-thunder-slider-1920-1920x450.jpg" alt="">
+                </div>
+                <div class="slide">
+                    <img src="img/hoh-slider-1920-1920x450.jpg" alt="">
+                </div>
+                <div class="slide">
+                    <img src="img/Joggers-homepage-banner.jpg" alt="">
+                </div>
+                <div class="slide">
+                    <img src="img/cs-slider1-1920-1920x450.jpg" alt="">
+                </div>
+
+                <div class="navigation-auto">
+                    <div class="auto-btn1"></div>
+                    <div class="auto-btn2"></div>
+                    <div class="auto-btn3"></div>
+                    <div class="auto-btn4"></div>
+                </div>
+            </div>
+            
+            <div class="navigation-manual">
+                <label for="radio1" class="manual-btn"></label>
+                <label for="radio2" class="manual-btn"></label>
+                <label for="radio3" class="manual-btn"></label>
+                <label for="radio4" class="manual-btn"></label>
+            </div>
+    </section>
+    
+<!-- All Products Section -->
+
+<section class="products">
+    <div class="row row-2">
+        <h3>All Products</h3>
+        <select>
+            <option>Relevance</option>
+            <option>By Popularity</option>
+            <option>By Date</option>
+            <option>Price Low to High</option>
+            <option>Price High to Low</option>
+        </select>
+    </div>
+    <div class="row">
+        <a href="product-details.html">
+            <div class="col-8">
+                <div class="items">
+                    <img src="img/Product Images/F-Prod/The Ravagers T-shirt fproducts.jpg" alt="">
+                    <div class="elements">
+                        <h4>The Ravager : Thor</h4>
+                        <hr>
+                        <h6>T-shirts</h6>
+                        <h4>&#8377 699</h4>
+                        <p>Price inclusive all taxes</p>
+                    </div>
+                    
+                </div>
+            </div>
+        </a>
+        <a href="">
+            <div class="col-8">
+                <div class="items">
+                    <img src="img/Product Images/F-Prod/Avengers shorts fproduct.jpg" alt="">
+                    <div class="elements">
+                        <h4>Avengers : Logo</h4>
+                        <hr>
+                        <h6>Shorts</h6>
+                        <h4>&#8377 499</h4>
+                        <p>Price inclusive all taxes</p>
+                    </div>
+                </div>
+            </div>
+        </a>
+        <a href="">
+            <div class="col-8">
+                <div class="items">
+                    <img src="img/Product Images/F-Prod/CA logo joggers fproducts.jpg" alt="">
+                    <div class="elements">
+                        <h4>Captain America : Logo</h4>
+                        <hr>
+                        <h6>Joggers</h6>
+                        <h4>&#8377 799</h4>
+                        <p>Price inclusive all taxes</p>
+                    </div>
+                </div>
+            </div>
+        </a>
+        <a href="">
+            <div class="col-8">
+                <div class="items">
+                    <img src="img/Product Images/F-Prod/Thor T-shirt fproducts.jpg" alt="">
+                    <div class="elements">
+                        <h4>Thor : The Protector</h4>
+                        <hr>
+                        <h6>T-shirts</h6>
+                        <h4>&#8377 399</h4>
+                        <p>Price inclusive all taxes</p>
+                    </div>
+                </div>
+            </div>
+        </a>
+        <a href="">
+            <div class="col-8">
+                <div class="items">
+                    <img src="img/Product Images/F-Prod/Black Panther fullsleeve fproduct.jpg" alt="">
+                    <div class="elements">
+                        <h4>Black Panther : Wakanda Forever</h4>
+                        <hr>
+                        <h6>Full Sleeve T-shirts</h6>
+                        <h4>&#8377 699</h4>
+                        <p>Price inclusive all taxes</p>
+                    </div>
+                </div>
+            </div>
+        </a>
+        <a href="">
+            <div class="col-8">
+                <div class="items">
+                    <img src="img/Product Images/F-Prod/DBZ shorts fproduct.jpg" alt="">
+                    <div class="elements">
+                        <h4>Dragon Ball-Z : Goku</h4>
+                        <hr>
+                        <h6>Shorts</h6>
+                        <h4>&#8377 499</h4>
+                        <p>Price inclusive all taxes</p>
+                    </div>
+                </div>
+            </div>
+        </a>
+        <a href="">
+            <div class="col-8">
+                <div class="items">
+                    <img src="img/Product Images/F-Prod/Batman 3D logo hoodie fproduct.jpg" alt="">
+                    <div class="elements">
+                        <h4>The Batman : 3D Logo</h4>
+                        <hr>
+                        <h6>Hoodies</h6>
+                        <h4>&#8377 1499</h4>
+                        <p>Price inclusive all taxes</p>
+                    </div>
+                </div>
+            </div>
+        </a>
+        <a href="">
+            <div class="col-8">
+                <div class="items">
+                    <img src="img/Product Images/F-Prod/HP Gryffindor shoes fproducts.jpg" alt="">
+                    <div class="elements">
+                        <h4>Harry Potter : Gryffindor</h4>
+                        <hr>
+                        <h6>Shoes</h6>
+                        <h4>&#8377 1299</h4>
+                        <p>Price inclusive all taxes</p>
+                    </div>
+                </div>
+            </div>
+        </a>
+        <a href="">
+            <div class="col-8">
+                <div class="items">
+                    <img src="img/Product Images/F-Cat/Superman Joggers background.jpg" alt="">
+                    <div class="elements">
+                        <h4>Superman : Man of Steel</h4>
+                        <hr>
+                        <h6>Joggers</h6>
+                        <h4>&#8377 1299</h4>
+                        <p>Price inclusive all taxes</p>
+                    </div>
+                </div>
+            </div>
+        </a>
+        <a href="">
+            <div class="col-8">
+                <div class="items">
+                    <img src="img/Product Images/F-Cat/Batman Full-sleeve background.jpg" alt="">
+                    <div class="elements">
+                        <h4>Batman : 3D Logo</h4>
+                        <hr>
+                        <h6>Full-sleeve T-shirts</h6>
+                        <h4>&#8377 799</h4>
+                        <p>Price inclusive all taxes</p>
+                    </div>
+                </div>
+            </div>
+        </a>
+        <a href="">
+            <div class="col-8">
+                <div class="items">
+                    <img src="img/Product Images/F-Cat/Deadpool Shorts background.jpg" alt="">
+                    <div class="elements">
+                        <h4>Deadpool : Mask</h4>
+                        <hr>
+                        <h6>Shorts</h6>
+                        <h4>&#8377 499</h4>
+                        <p>Price inclusive all taxes</p>
+                    </div>
+                </div>
+            </div>
+        </a>
+        <a href="">
+            <div class="col-8">
+                <div class="items">
+                    <img src="img/Product Images/F-Cat/Goku Hoodies background.jpg" alt="">
+                    <div class="elements">
+                        <h4>Dragon Ball-Z : Goku</h4>
+                        <hr>
+                        <h6>Hoodies</h6>
+                        <h4>&#8377 1499</h4>
+                        <p>Price inclusive all taxes</p>
+                    </div>
+                </div>
+            </div>
+        </a>
+        <a href="">
+            <div class="col-8">
+                <div class="items">
+                    <img src="img/Product Images/F-Cat/Spider-man T-shirt background.jpg" alt="">
+                    <div class="elements">
+                        <h4>Spider-man NWH : Logo</h4>
+                        <hr>
+                        <h6>T-shirts</h6>
+                        <h4>&#8377 499</h4>
+                        <p>Price inclusive all taxes</p>
+                    </div>
+                </div>
+            </div>
+        </a>
+        <a href="">
+            <div class="col-8">
+                <div class="items">
+                    <img src="img/Product Images/F-Cat/Star Wars footwear background.jpg" alt="">
+                    <div class="elements">
+                        <h4>Star Wars : Starcriuser</h4>
+                        <hr>
+                        <h6>Shoes</h6>
+                        <h4>&#8377 1299</h4>
+                        <p>Price inclusive all taxes</p>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </div>
+    <div class="page-btn">
+        <span>1</span>
+        <span>2</span>
+        <span>3</span>
+        <span>4</span>
+        <span>&#8594</span>
+    </div>
+</section>
+
+<!-- Footer -->
+<div class="footer">
+    <div class="banner">
+        ONLINE MERCHANDISE BRAND
+    </div>
+    <div class="footer-content">
+        <div class="heading"> About Us</div>
+        <div class="content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi unde nam enim ab ipsam ratione, aperiam harum libero porro distinctio minus laboriosam, ipsa ipsum qui fuga veniam pariatur commodi dolores nobis excepturi repudiandae nemo quasi voluptate! Iusto eos inventore unde veniam vel exercitationem esse! Consequuntur a nobis facere quia officia voluptas accusantium distinctio aliquid ad animi, iste totam beatae repellat numquam quibusdam architecto saepe tenetur vitae possimus doloribus! Blanditiis, itaque.</div>
+
+        <div class="p-s-details">
+            <div class="payment">
+                <div class="pay-text">100% Secure Payment :</div>
+                <div class="pay-image"><img src="img/payments-icon.e77ef49.png" alt=""></div>
+            </div>
+            <div class="icon-divisor"></div>
+            <div class="shipping">
+                <div class="ship-text">Shipping Partners :</div> 
+                <div class="ship-images">
+                    <div class="ship-image">
+                        <img src="img/delivery.png" alt="">
+                    </div>
+                    <div class="ship-image">
+                        <img src="img/ECOM-Express.png" alt="">
+                    </div>
+                    <div class="ship-image">
+                        <img src="img/XPRESSBEES.png" alt="">
+                    </div>
+                    <div class="ship-image">
+                        <img src="img/dtdc.png" alt="">
+                    </div>
+                </div>   
+            </div>
+        </div>
+        <div class="delivery-info">
+                <div class="col-3">
+                    <i class="fa-solid fa-truck-fast"></i>
+                    <span>Fast and Free Delivery Over &#8377 499 <br>only on Prepaid Orders</span>
+                </div>
+                <div class="col-3">
+                    <i class="fa-solid fa-indian-rupee-sign"></i>
+                    <span>Cash On Delivery Available</span>
+                </div>
+                <div class="col-3">
+                    <i class="fa-solid fa-rotate"></i>
+                    <span>Easily 30 Days Return Policy</span>
+                </div>
+        </div>
+    </div>
+    <div class="copyright">All Rights Reserved &#169 SupeMerch 2022-2023</div>
+</div>
+
+<!-- JavaScript for toggle menu -->
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.left="0";
+    }
+    function hideMenu(){
+        navLinks.style.left="-200px";
+    }
+</script>
+
+<!-- JavaScript for image slider -->
+<script type="text/javascript">
+    var counter = 1;
+    setInterval(function(){
+        document.getElementById('radio' + counter).checked = true;
+        counter++;
+        if(counter > 4){
+            counter = 1;
+        }
+    }, 5000)
+
+</script>
+
+<!-- JQuery for Navigation Menu -->
+<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+<script>
+
+    $(window).scroll(function(){
+        if($(window).scrollTop()){
+            $("nav").addClass("black");
+        }
+        else{
+            $("nav").removeClass("black");
+        }
+    });
+</script>
+
+
+</body>
+</html>
